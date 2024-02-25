@@ -5,7 +5,7 @@ services:
     container_name: healtheat
     image: healtheat:latest
     build:
-      context: ./
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: /Dockerfile
     ports:
       - "8180:8180"
