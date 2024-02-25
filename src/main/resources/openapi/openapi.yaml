@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: ms-doc api
+  version: 1.0.0
+
+servers:
+  - url: 'http://localhost'
+
+paths:
+  /test:
+    post:
+      tags:
+        - test
+      description: 'test'
+      operationId: 'test'
+      responses:
+        '200':
+          description: 'ok'
+        '500':
+          description: 'internal server error'
+
+
